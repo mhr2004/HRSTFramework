@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F1C74F521049EB500837594 /* HRSTFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F1C74F321049EB500837594 /* HRSTFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F1C74FC2104A0B400837594 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C74FB2104A0B400837594 /* Service.swift */; };
+		0F1C750A2104A56500837594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C75092104A56500837594 /* AppDelegate.swift */; };
+		0F1C750C2104A56500837594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C750B2104A56500837594 /* ViewController.swift */; };
+		0F1C750F2104A56500837594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1C750D2104A56500837594 /* Main.storyboard */; };
+		0F1C75112104A56700837594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F1C75102104A56700837594 /* Assets.xcassets */; };
+		0F1C75142104A56700837594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1C75122104A56700837594 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F1C74F021049EB500837594 /* HRSTFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HRSTFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F1C74F321049EB500837594 /* HRSTFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRSTFramework.h; sourceTree = "<group>"; };
-		0F1C74F421049EB500837594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F1C74FB2104A0B400837594 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		0F1C75062104A56500837594 /* TestFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1C75092104A56500837594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F1C750B2104A56500837594 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F1C750E2104A56500837594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F1C75102104A56700837594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F1C75132104A56700837594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F1C75152104A56700837594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0F1C74EC21049EB500837594 /* Frameworks */ = {
+		0F1C75032104A56500837594 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,119 +35,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F1C74E621049EB500837594 = {
+		0F1C74FD2104A56500837594 = {
 			isa = PBXGroup;
 			children = (
-				0F1C74F221049EB500837594 /* HRSTFramework */,
-				0F1C74F121049EB500837594 /* Products */,
+				0F1C75082104A56500837594 /* TestFrame */,
+				0F1C75072104A56500837594 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0F1C74F121049EB500837594 /* Products */ = {
+		0F1C75072104A56500837594 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0F1C74F021049EB500837594 /* HRSTFramework.framework */,
+				0F1C75062104A56500837594 /* TestFrame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0F1C74F221049EB500837594 /* HRSTFramework */ = {
+		0F1C75082104A56500837594 /* TestFrame */ = {
 			isa = PBXGroup;
 			children = (
-				0F1C74F321049EB500837594 /* HRSTFramework.h */,
-				0F1C74F421049EB500837594 /* Info.plist */,
-				0F1C74FB2104A0B400837594 /* Service.swift */,
+				0F1C75092104A56500837594 /* AppDelegate.swift */,
+				0F1C750B2104A56500837594 /* ViewController.swift */,
+				0F1C750D2104A56500837594 /* Main.storyboard */,
+				0F1C75102104A56700837594 /* Assets.xcassets */,
+				0F1C75122104A56700837594 /* LaunchScreen.storyboard */,
+				0F1C75152104A56700837594 /* Info.plist */,
 			);
-			path = HRSTFramework;
+			path = TestFrame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		0F1C74ED21049EB500837594 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F1C74F521049EB500837594 /* HRSTFramework.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		0F1C74EF21049EB500837594 /* HRSTFramework */ = {
+		0F1C75052104A56500837594 /* TestFrame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F1C74F821049EB500837594 /* Build configuration list for PBXNativeTarget "HRSTFramework" */;
+			buildConfigurationList = 0F1C75182104A56700837594 /* Build configuration list for PBXNativeTarget "TestFrame" */;
 			buildPhases = (
-				0F1C74EB21049EB500837594 /* Sources */,
-				0F1C74EC21049EB500837594 /* Frameworks */,
-				0F1C74ED21049EB500837594 /* Headers */,
-				0F1C74EE21049EB500837594 /* Resources */,
+				0F1C75022104A56500837594 /* Sources */,
+				0F1C75032104A56500837594 /* Frameworks */,
+				0F1C75042104A56500837594 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HRSTFramework;
-			productName = HRSTFramework;
-			productReference = 0F1C74F021049EB500837594 /* HRSTFramework.framework */;
-			productType = "com.apple.product-type.framework";
+			name = TestFrame;
+			productName = TestFrame;
+			productReference = 0F1C75062104A56500837594 /* TestFrame.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0F1C74E721049EB500837594 /* Project object */ = {
+		0F1C74FE2104A56500837594 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Sepide Taavon";
 				TargetAttributes = {
-					0F1C74EF21049EB500837594 = {
+					0F1C75052104A56500837594 = {
 						CreatedOnToolsVersion = 9.3.1;
-						LastSwiftMigration = 0930;
 					};
 				};
 			};
-			buildConfigurationList = 0F1C74EA21049EB500837594 /* Build configuration list for PBXProject "HRSTFramework" */;
+			buildConfigurationList = 0F1C75012104A56500837594 /* Build configuration list for PBXProject "TestFrame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 0F1C74E621049EB500837594;
-			productRefGroup = 0F1C74F121049EB500837594 /* Products */;
+			mainGroup = 0F1C74FD2104A56500837594;
+			productRefGroup = 0F1C75072104A56500837594 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0F1C74EF21049EB500837594 /* HRSTFramework */,
+				0F1C75052104A56500837594 /* TestFrame */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0F1C74EE21049EB500837594 /* Resources */ = {
+		0F1C75042104A56500837594 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F1C75142104A56700837594 /* LaunchScreen.storyboard in Resources */,
+				0F1C75112104A56700837594 /* Assets.xcassets in Resources */,
+				0F1C750F2104A56500837594 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F1C74EB21049EB500837594 /* Sources */ = {
+		0F1C75022104A56500837594 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F1C74FC2104A0B400837594 /* Service.swift in Sources */,
+				0F1C750C2104A56500837594 /* ViewController.swift in Sources */,
+				0F1C750A2104A56500837594 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		0F1C750D2104A56500837594 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F1C750E2104A56500837594 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F1C75122104A56700837594 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F1C75132104A56700837594 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		0F1C74F621049EB500837594 /* Debug */ = {
+		0F1C75162104A56700837594 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -175,7 +196,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -199,12 +219,10 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		0F1C74F721049EB500837594 /* Release */ = {
+		0F1C75172104A56700837594 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +256,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -256,59 +273,40 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		0F1C74F921049EB500837594 /* Debug */ = {
+		0F1C75192104A56700837594 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MWHV29LS3Z;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = HRSTFramework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = TestFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.sepid.HRSTFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.sepid.TestFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0F1C74FA21049EB500837594 /* Release */ = {
+		0F1C751A2104A56700837594 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MWHV29LS3Z;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = HRSTFramework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = TestFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.sepid.HRSTFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.sepid.TestFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F1C74EA21049EB500837594 /* Build configuration list for PBXProject "HRSTFramework" */ = {
+		0F1C75012104A56500837594 /* Build configuration list for PBXProject "TestFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F1C74F621049EB500837594 /* Debug */,
-				0F1C74F721049EB500837594 /* Release */,
+				0F1C75162104A56700837594 /* Debug */,
+				0F1C75172104A56700837594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F1C74F821049EB500837594 /* Build configuration list for PBXNativeTarget "HRSTFramework" */ = {
+		0F1C75182104A56700837594 /* Build configuration list for PBXNativeTarget "TestFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F1C74F921049EB500837594 /* Debug */,
-				0F1C74FA21049EB500837594 /* Release */,
+				0F1C75192104A56700837594 /* Debug */,
+				0F1C751A2104A56700837594 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0F1C74E721049EB500837594 /* Project object */;
+	rootObject = 0F1C74FE2104A56500837594 /* Project object */;
 }
