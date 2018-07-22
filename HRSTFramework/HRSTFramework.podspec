@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "11.0"
   s.source       = { :git => "https://github.com/mhr2004/HRSTFramework.git", :tag => "#{s.version}" }
-  s.source_files  = "HRSTFramework/**/*.{h,m,swift}"
+  s.source_files  = "HRSTFramework/**/*"
 
 end
